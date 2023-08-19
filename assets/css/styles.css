@@ -1,9 +1,19 @@
 .banner {
     background-image: url(../img/outerspace-53.gif);
     background-size: cover;
+    min-height: 100vw;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .w-20{
     width: 20% !important;
+}
+
+.color-naranja{
+    color: rgb(255, 153, 0) !important;
+}
+
+.color-gris{
+    color: azure;
 }
