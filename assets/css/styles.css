@@ -41,11 +41,9 @@ h5, h4, h2{
     width: 100px; /* Ancho deseado */
     height: 100px; /* Alto deseado */
     transition: transform 0.3s ease-in-out, fill 0.3s ease-in-out; /* Agrega transiciones suaves */
-  
-    /* Estilos iniciales */
-    fill: blue; /* Color inicial */
   }
   
+
   .skill:hover {
     transform: scale(1.2); /* Aumenta el tamaño al colocar el mouse sobre el elemento */
     fill: orange; /* Cambia el color a naranja */
