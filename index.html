@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="assets\css\styles.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+    </style>
+   
+    
     <ul class="nav navbar-dark bg-dark justify-content-end">
         <li class="nav-item">
             <a class="nav-link text-white" href="#portada">Inicio</a>
@@ -34,7 +39,7 @@
             <div class="text-center mb-5 pt-5">
                 <img src="assets/img/Firefly 20230818214318.jpg" alt="foto_perfil" class="my-5 mx-auto w-20 img-fluid rounded-circle">
                 <p class="color-naranja">Quintana Facundo Nahuel</p>
-                <p class="color-gris">Software Developer</p>
+                <p class="color-gris txt-italic">Software Developer</p>
             </div>
         </div>
      
@@ -81,9 +86,9 @@
                 </div>
         </div>
             
-        <h2 class="text-center" id="#Projects">Proyectos</h2>
+        <h2 class="text-center" id="Projects">Proyectos</h2>
         
-        <div class="conteiner">
+        <div class="conteiner" >
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-6 shadow p-3 mb-5 bg-body rounded">
@@ -96,24 +101,12 @@
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <img src="assets\img\proj1\foto1.jpg" class="d-block w-100" alt="foto 1">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Proyecto Basado en Lenguaje C</h5>
-                                <p>Mini juego estilo preguntados, acerca de los esteros del iberá con persistencia de datos .</p>
-                              </div>
                           </div>
                           <div class="carousel-item">
                             <img src="assets\img\proj1\foto2.png" class="d-block w-100" alt="foto 2">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Proyecto Basado en Lenguaje C</h5>
-                                <p>Mini juego estilo preguntados, acerca de los esteros del iberá con persistencia de datos .</p>
-                              </div>
                           </div>
                           <div class="carousel-item">
                             <img src="assets\img\proj1\foto3.jpg" class="d-block w-100" alt="foto 3">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Proyecto Basado en Lenguaje C</h5>
-                                <p>Mini juego estilo preguntados, acerca de los esteros del iberá con persistencia de datos .</p>
-                              </div>
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -125,6 +118,8 @@
                           <span class="visually-hidden">Next</span>
                         </button>
                       </div>
+                      <h5 class="text-center mt-3">Proyecto Basado en Lenguaje C</h5>
+                      <p>Mini juego estilo preguntados, acerca de los esteros del iberá con persistencia de datos .</p>
                 </div>
                 <div class="col-lg-3"></div>
                 <div class="col-lg-3"></div>
@@ -138,24 +133,15 @@
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <img src="assets\img\proj2\foto1.png" class="d-block w-100" alt="foto 1">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 class="text-dark">Proyecto Basado en Java</h5>
-                                <p class="text-dark">Mini biblioteca con persistencia de datos y desarrollado con paradigma de objetos.</p>
-                              </div>
+                            
                           </div>
                           <div class="carousel-item">
                             <img src="assets\img\proj2\foto2.png" class="d-block w-100" alt="foto 2">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 class="text-dark">Proyecto Basado en Java</h5>
-                                <p class="text-dark">Mini biblioteca con persistencia de datos y desarrollado con paradigma de objetos.</p>
-                              </div>
+                            
                           </div>
                           <div class="carousel-item">
                             <img src="assets\img\proj2\foto3.jpg" class="d-block w-100" alt="foto 3">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 class="text-dark">Proyecto Basado en Java</h5>
-                                <p class="text-dark">Mini biblioteca con persistencia de datos y desarrollado con paradigma de objetos.</p>
-                              </div>
+                            
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
@@ -167,6 +153,8 @@
                           <span class="visually-hidden">Next</span>
                         </button>
                       </div>
+                      <h5 class="text-dark text-center mt-3">Proyecto Basado en Java</h5>
+                      <p class="text-dark">Mini biblioteca con persistencia de datos y desarrollado con paradigma de objetos.</p>
                 </div>
                 <div class="col-lg-3"></div>
                 <div class="col-lg-3"></div>
@@ -182,29 +170,21 @@
                           <div class="carousel-item active">
                             <img src="assets\img\proj3\foto1.jpg" class="d-block w-100" alt="foto 1">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5 class="text-dark">Proyecto PHP y MySQL</h5>
-                                <p class="text-dark">Pagina e-commerce con simulacion de pago y emicion de factura con base de datos.</p>
                               </div>
                           </div>
                           <div class="carousel-item">
                             <img src="assets\img\proj3\foto2.jpg" class="d-block w-100" alt="foto 2">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5 class="text-dark">Proyecto PHP y MySQL</h5>
-                                <p class="text-dark">Pagina e-commerce con simulacion de pago y emicion de factura con base de datos.</p>
                               </div>
                           </div>
                           <div class="carousel-item">
                             <img src="assets\img\proj3\foto3.jpg" class="d-block w-100" alt="foto 3">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5 class="text-dark">Proyecto PHP y MySQL</h5>
-                                <p class="text-dark">Pagina e-commerce con simulacion de pago y emicion de factura con base de datos.</p>
                               </div>
                           </div>
                           <div class="carousel-item">
                             <img src="assets\img\proj3\foto4.jpg" class="d-block w-100" alt="foto 4">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5 class="text-dark">Proyecto PHP y MySQL</h5>
-                                <p class="text-dark">Pagina e-commerce con simulacion de pago y emicion de factura con base de datos.</p>
                               </div>
                           </div>
                         </div>
@@ -217,6 +197,10 @@
                           <span class="visually-hidden">Next</span>
                         </button>
                       </div>
+                         <h5 class="text-dark text-center mt-3">Proyecto PHP y MySQL</h5>
+                        <p class="text-dark">Pagina e-commerce con simulacion de pago y emicion de factura con base de datos.</p>
+
+                                
                 </div>
                 <div class="col-lg-3"></div>
             </div>    
@@ -226,5 +210,16 @@
   
   
 </body>
+<footer>
+  <h2 class="text-center">Contacto</h2>
 
+  <div class="text-center">
+    <div class="mx-3 my-3">
+      <a href="https://www.linkedin.com/in/facundo-quintana-443407289/" target="_blank"><img src="assets\svg\linkedin.svg" width="30" alt="" ></a>
+    </div>
+    <div class="mx-3 my-3">
+      <a href="https://www.instagram.com/facuq45/" target="_blank" ><img src="assets\svg\instagram.svg" width="30" alt="insta-lgoo" ></a>
+    </div>
+  </div>
+</footer>
 </html>

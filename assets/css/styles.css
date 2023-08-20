@@ -2,6 +2,21 @@
     --hlOrange: #fb7f13;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.txt-italic{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+h5, h4, h2{
+    font-weight: 700 !important;
+    
+}
+
 .banner {
     background-image: url(../img/outerspace-53.gif);
     background-size: cover;
