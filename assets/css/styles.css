@@ -43,11 +43,16 @@ h5, h4, h2{
         background-repeat: no-repeat;
     }
 
+    .w-10{
+        width: 10vw ;
+        min-width: 10vw !important;
+    }
+
   }
 
 .w-10{
-    width: 10vw !important;
-    min-width: 10vw !important;
+    width: 5vw;
+    
 }
 
 .color-naranja{
@@ -59,16 +64,18 @@ h5, h4, h2{
 }
 
 .skill {
-    width: 100px; /* Ancho deseado */
-    height: 100px; /* Alto deseado */
+    width: 10vh; /* Ancho deseado */
+    height: 10vh; /* Alto deseado */
     transition: transform 0.3s ease-in-out, fill 0.3s ease-in-out; /* Agrega transiciones suaves */
   }
   
 
-  .skill:hover {
+.skill:hover {
     transform: scale(1.2); /* Aumenta el tamaño al colocar el mouse sobre el elemento */
     fill: orange; /* Cambia el color a naranja */
   }
   
-
+.texto-justificado {
+    text-align: justify;
+  }
   
