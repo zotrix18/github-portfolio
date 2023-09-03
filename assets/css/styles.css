@@ -48,7 +48,7 @@ h5, h4, h2{
         min-width: 10vw !important;
     }
 
-  }
+}
 
 .w-10{
     width: 5vw;
@@ -67,15 +67,19 @@ h5, h4, h2{
     width: 10vh; /* Ancho deseado */
     height: 10vh; /* Alto deseado */
     transition: transform 0.3s ease-in-out, fill 0.3s ease-in-out; /* Agrega transiciones suaves */
-  }
+}
   
 
 .skill:hover {
     transform: scale(1.2); /* Aumenta el tamaño al colocar el mouse sobre el elemento */
     fill: orange; /* Cambia el color a naranja */
-  }
+}
   
 .texto-justificado {
     text-align: justify;
-  }
+}
+
+.sin_linea {
+    text-decoration: none;
+}
   
